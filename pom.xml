@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.vishal</groupId>
 	<artifactId>java-github-pubish-package</artifactId>
-	<version>0.0.5</version>
+	<version>0.0.6-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>java-github-pubish-package</name>
 	<description>java-github-pubish-package</description>
@@ -21,7 +21,7 @@
 		<url>https://github.com/vishalkumar392392/java-github-pubish-package</url>
 		<connection>scm:git:https://github.com/vishalkumar392392/java-github-pubish-package.git</connection>
 		<developerConnection>scm:git:https://github.com/vishalkumar392392/java-github-pubish-package.git</developerConnection>
-		<tag>java-github-pubish-package-0.0.5</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<dependencies>
