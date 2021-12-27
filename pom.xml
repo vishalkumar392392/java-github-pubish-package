@@ -11,13 +11,21 @@
 	</parent>
 	<groupId>com.vishal</groupId>
 	<artifactId>java-github-pubish-package</artifactId>
-	<version>0.0.3</version>
+	<version>0.0.4-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>java-github-pubish-package</name>
 	<description>java-github-pubish-package</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
+
+	<scm>
+		<url>https://github.com/vishalkumar392392/java-github-pubish-package</url>
+		<connection>scm:git@github.com:vishalkumar392392/java-github-pubish-package.git</connection>
+		<developerConnection>scm:git@github.com:vishalkumar392392/java-github-pubish-package.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -38,5 +46,16 @@
 			<url>https://maven.pkg.github.com/vishalkumar392392/java-github-pubish-package</url>
 		</repository>
 	</distributionManagement>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>3.0.0-M4</version>
+			</plugin>
+		</plugins>
+
+	</build>
 
 </project>
